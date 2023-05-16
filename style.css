@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+    /* font-weight: bolder; */
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background-color: yellow;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    height: 70px;
+    align-items: center;
+}
+#logo{
+    text-shadow: 2px 2px 2px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+header .container nav ul{
+    display: flex;
+    list-style: none;
+}
+header .container nav ul a{
+    text-decoration: none;
+    padding-left: 25px;
+    color: black;
+}
+header .container nav ul a:hover{
+    color: red;
+}
+#child1 .container{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: cornflowerblue;
+    font-weight: bold;
+
+}
+#child2 .container{
+    font-size: 16px;
+    margin-top: 20px;
+    color: cornflowerblue;
+    font-weight: bold;
+
+}
+#child3 .container{
+    font-size: 16px;
+    margin-top: 20px;
+    color: cornflowerblue;
+    font-weight: bold;
+
+}
+#child4 .container{
+    font-size: 16px;
+    margin-top: 20px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+#child5 .container{
+    font-size: 16px;
+    margin-top: 20px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+#child5  #pag{
+    margin-top: 20px;
+}
+#child6 .container{
+    font-size: 16px;
+    margin-top: 20px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+#child6 .container p{
+    margin-top: 15px;
+
+}
+#child6 .container h1{
+    margin-top: 15px;
+
+}
+.child7 .container{
+    font-size: 16px;
+    margin-top: 20px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.child7 .container h1{
+    margin-top: 15px;
+}
+
+.child7 .container nav{
+    margin-top: 15px;
+}
+footer .boxes{
+    background-color: black;
+    height: auto;
+    color: orange;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.boxes #box h4{
+    color: white;
+    line-height: 2;
+    
+}
+.boxes #box3 p{
+    margin-bottom: 10px;
+}
+#box3 form{
+    display: flex;
+}
+#box3 input{
+    background-color: black;
+    padding: 13px 30px 13px 30px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+#box3 .button1{
+    background-color: orange;
+    padding: 13px 25px 13px 25px;
+    border-radius: 6px;
+    margin-left: -10px;
+}
